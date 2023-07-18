@@ -1,16 +1,19 @@
 
 import './App.css'
+import Card from './components/Card/Card';
 
 function App() {
 
   return (
     <>
-      <div className='card'>
-        <h1>Titulo do item</h1>
-        <img src="https://upload.wikimedia.org/wikipedia/en/6/6e/Link_to_the_Past_Zelda.png"/>
+      <div className='cards-list'>
+        <Card />
+        <Card />
+        <Card />
       </div>
     </>
+
   )
 }
 
-export default App
+export default App;

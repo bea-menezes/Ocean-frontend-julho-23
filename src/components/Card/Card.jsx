@@ -1,14 +1,20 @@
-import './Card.css'
 
-function Card() {
+import './Card.css';
+
+//Props de um componente react
+export default function Card(props) {
+    //variavel que armazena as props que estao no App.jsx
+    const item = props.item;
+
+    // console.log(item);
+
     return (
         <>
             <div className='card'>
-                <h1>Titulo do item</h1>
-                <img src="https://upload.wikimedia.org/wikipedia/en/6/6e/Link_to_the_Past_Zelda.png" />
+                <h1>{item.nome}</h1> 
+                <img src={item.imagem}/>
             </div>
         </>
     )
 }
 
-export default Card;

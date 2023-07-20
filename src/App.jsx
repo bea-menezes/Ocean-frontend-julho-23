@@ -1,4 +1,5 @@
 
+import { useEffect, useState } from 'react';
 import './App.css'
 import Card from './components/Card/Card';
 
@@ -19,7 +20,9 @@ const item3 = {
 }
 
 // lista de objetos para usar no map
-const itens = [item1, item2, item3];
+// const itens = [item1, item2, item3];
+// const itens = [item1, item2, item3];
+// const itens = [];
 
 /*
   ATENCAO: SE TIVER ALGUEM VENDO O CODIGO, ESSES COMENTARIOS SAO DE ENTENDIMENTO PROPRIO, PODE ESTAR SUJEITO A ERROS DE NOMEACAO. (ATE MESMO DE CONCEITO ......) !!!!!!!
@@ -46,9 +49,19 @@ async function carregarDadosApi(){
   console.log(body)
 }
 
-carregarDadosApi();
+// carregarDadosApi();
 
 function App() {
+
+  const [itens, setItens] = useState([])
+
+  console.log("itens", itens)
+
+  useEffect(function () {
+    setItens([item1, item2])
+  }, [])
+
+
 
   // Adicionando card de forma automatica com o map
   return (

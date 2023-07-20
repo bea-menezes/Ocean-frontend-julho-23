@@ -4,18 +4,18 @@ import Card from './components/Card/Card';
 
 //Objetos que armazenam as informacoes dos cards
 const item1 = {
-  nome: "Princesa Zelda",
-  imagem: "https://upload.wikimedia.org/wikipedia/en/6/6e/Link_to_the_Past_Zelda.png"
+  nome: "Rick Sanchez",
+  imagem: "https://static.tvtropes.org/pmwiki/pub/images/abcb6534_7913_4eb1_a7a5_62b081ebc628.png"
 }
 
 const item2 = {
-  nome: "Link",
-  imagem: "https://www.zeldadungeon.net/wiki/images/thumb/f/f5/Link_-_TotK_key_art.png/400px-Link_-_TotK_key_art.png"
+  nome: "Morty Smith",
+  imagem: "https://comicvine.gamespot.com/a/uploads/scale_medium/6/66303/4469088-tumblr_inline_n0aleph3fl1r8rr6o.jpg"
 }
 
 const item3 = {
-  nome: "Epona",
-  imagem: "https://pm1.aminoapps.com/6873/e56769ef7d6abb8d617b2094144c0994549935f8r1-373-393v2_uhq.jpg"
+  nome: "Summer Smith",
+  imagem: "https://images.squarespace-cdn.com/content/v1/5616ac17e4b018d366f57f53/1616952566614-0IEBMBBMXMO30Z37PTMN/summer+smith+soundboard"
 }
 
 // lista de objetos para usar no map
